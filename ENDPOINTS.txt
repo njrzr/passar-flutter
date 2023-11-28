@@ -1,0 +1,108 @@
+//! auth
+'/user/login'
+'/user/logout'
+'/user/send-code'
+'/user/forget/password'
+'/user/forget/verify/otp'
+'/user/email-verify'
+'/user/forget/password/check/user'
+'/user/forget/reset/password'
+
+//! register
+'/user/register/check/exist' 
+'/get/basic/data'
+'/user/kyc'
+'/user/register'
+'/user/register/send/otp'
+'/user/register/verify/otp'
+
+//! navbar
+'/user/dashboard'
+'/user/notifications'
+
+//! profile
+'/user/profile'
+'/user/profile/update'
+'/user/kyc/submit'
+
+//! categories
+'/user/add-money/information'
+
+//! drawer
+'/user/password/update'
+'/user/logout'
+
+//! send money
+'/user/add-money/submit-data'
+'/user/add-money/stripe/payment/confirm'
+'/user/add-money/manual/payment/confirmed'
+
+// flutterwave virtual card
+'/user/my-card'
+'/user/my-card/details?card_id='
+'/user/my-card/block'
+'/user/my-card/unblock'
+'/user/my-card/fund'
+'/user/my-card/create'
+'/user/my-card/transaction?card_id='
+
+// sudo virtual card
+'/user/my-card/sudo'
+'/user/my-card/sudo/details?card_id='
+'/user/my-card/sudo/block'
+'/user/my-card/sudo/unblock'
+'/user/my-card/sudo/make-remove/default'
+'/user/my-card/sudo/create'
+'/user/my-card/transaction?card_id='
+'/user/receive-money'
+'/user/send-money/info'
+'/user/send-money/exist'
+'/user/send-money/qr/scan'
+'/user/send-money/confirmed'
+
+// money_out
+'/user/withdraw/info'
+'/user/withdraw/get/flutterwave/banks?trx='
+'/user/withdraw/insert'
+'/user/withdraw/manual/confirmed'
+'/user/withdraw/check/flutterwave/bank'
+'/user/withdraw/automatic/confirmed'
+'/user/bill-pay/info'
+'/user/bill-pay/confirmed'
+'/user/mobile-topup/info'
+'/user/mobile-topup/confirmed'
+
+// recipient
+'/user/recipient/list'
+'/user/recipient/check/user'
+'/user/recipient/save/info'
+'/user/recipient/dynamic/fields'
+'/user/recipient/check/user'
+'/user/recipient/store'
+'/user/recipient/update'
+'/user/recipient/delete'
+'/user/recipient/edit?id='
+
+// remittance
+'/user/remittance/info'
+'/user/remittance/get/recipient'
+'/user/remittance/confirmed'
+
+// transactions
+'/user/transactions'
+
+// app settings
+'/app-settings'
+
+// 2FA security
+'/user/security/google/2fa/status'
+'/user/google/2fa/verify'
+'/user/make-payment/info'
+'/user/make-payment/check/merchant'
+'/user/make-payment/merchants/scan'
+'/user/make-payment/confirmed'
+'/user/sms/verify'
+'/user/delete/account'
+
+// language
+'/app-settings/languages'
